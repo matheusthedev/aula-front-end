@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #237cdb;
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+        }
+
+        article {
+            box-sizing: border-box;
+            width: 180px;
+            height: 180px;
+            margin-top: 20px;
+            margin-left: 20px;
+            padding: 15px;
+            border: 1px dashed blue;
+            background-color: powderblue;
+            text-align: center;
+            box-shadow: 2px 2px 5px black;
+
+        }
+
+        article img {
+
+            text-align: center;
+            width: 40px;
+        }
+
+        article h1 {
+
+            font-size: 18px;
+            font-family: 'Courier New', Courier, monospace;
+            text-transform: uppercase;
+        }
+
+        article p {
+            text-align: center;
+            font-family: cursive;
+            font-size: 12px;
+        }
+
+        .caixa-azul {
+            background-color: blue;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <article>
+        <img src="imagens/Lightning Bolt.svg" alt="Imagem de um raio">
+        <h1>Web Design</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </article>
+    <article class="caixa-azul">
+        <img src="imagens/Love Arrow (1).svg" alt="Imagem de um raio">
+        <h1>Graphics Design</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </article>
+    <article>
+        <img src="imagens/Opened Folder.svg" alt="Imagem de um raio">
+        <h1>UI/UX Design</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </article>
+</body>
+
+</html>
