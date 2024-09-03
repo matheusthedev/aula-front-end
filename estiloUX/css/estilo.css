@@ -4,13 +4,22 @@
     box-sizing: border-box;
 }
 
+html,
 body {
-    background-color: #efefef;
+    height: 100%;
+    border: 2px solid orange;
 }
 
-header {
+body {
+    background-color: #efefef;
+    border: 2px solid blue;
+
+}
+
+header,
+footer {
     width: 100%;
-    height: 80px;
+    height: 10%;
     background-color: #727272;
     display: flex;
 }
@@ -22,10 +31,19 @@ header {
 }
 
 h1 {
-    font-family: sans-serif;
-    font-size: 30px;
-    font-weight: 300;
+    font-family: -apple-system;
+    font-size: 26px;
+    font-weight: 400;
     color: white;
+
+}
+
+.ux {
+    font-size: 30px;
+    margin-left: 3px;
+    font-style: italic;
+    font-weight: 900;
+    font-family: -apple-system;
 
 }
 
@@ -41,15 +59,70 @@ h1 {
 nav {
     width: 400px;
     height: 100%;
-    /* border: 3px solid pink; */
+    /* border: 3px solid white; */
 
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
-div {
+nav a {
+    width: 100px;
+    height: 80px;
+    /* border: 2px solid ; */
+
+    color: #e8e8e8;
+    text-decoration: none;
+    font-family: verdana, sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.4s, margin-left 0.8s, margin-bottom 0.8s;
+}
+
+nav a:hover {
+    /* color: pink;
+    text-decoration: underline;
+    font-style: italic; */
+    margin-left: 10px;
+    margin-bottom: 10px;
+    background-color: rgba(230, 230, 230, 0.5);
+}
+
+.main-flex {
+    width: 100%;
+    height: 100%;
+
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    border: 2px solid green;
+}
+
+.harmonia {
+    width: 700px;
+    height: 100%;
+
+    /* margin: 10px; */
+
+    border: 2px solid blue;
+
+}
+
+aside {
+    border: 2px solid purple;
+
+    width: 250px;
+    height: 100%;
+    /* margin: 10px; */
+}
+
+main {
+    width: 100%;
+    height: 80%;
+    border: 1px solid red;
+
+
 }
