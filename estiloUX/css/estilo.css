@@ -7,12 +7,12 @@
 html,
 body {
     height: 100%;
-    border: 2px solid orange;
+    /* border: 2px solid orange; */
 }
 
 body {
     background-color: #efefef;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
 
 }
 
@@ -96,33 +96,116 @@ nav a:hover {
 
     display: flex;
     justify-content: space-between;
-    align-items: center;
 
-    border: 2px solid green;
+
+    /* border: 2px solid green; */
 }
 
 .harmonia {
     width: 700px;
     height: 100%;
+    background-color: white;
 
     /* margin: 10px; */
 
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
 
+}
+
+.harmonia img {
+    width: 100%;
+}
+
+.harmonia h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 25px;
+    margin-right: 20px;
+    margin-left: 20px;
+    color: #a8a8a8;
+}
+
+.harmonia p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    color: #a8a8a8;
 }
 
 aside {
-    border: 2px solid purple;
+    /* border: 2px solid purple; */
 
     width: 250px;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
     /* margin: 10px; */
+    /* background-color: rgb(225, 110, 110); */
+
+
 }
+
+aside article {
+    background-color: white;
+    
+
+
+}
+
+aside article h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    color: #a8a8a8;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid #a8a8a8;
+
+}
+
+aside .buscar-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+aside article input,
+aside article button {
+    height: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+aside article button {
+    width: 30px;
+    background-color: #727272;
+    color: white;
+    border: none;
+    border: 1px solid #727272;
+    cursor: pointer;
+}
+
+aside article input {
+    border: 1px solid #a8a8a8;
+    outline: none;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
 
 main {
     width: 100%;
     height: 80%;
-    border: 1px solid red;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* border: 1px solid red; */
 
 
 }
